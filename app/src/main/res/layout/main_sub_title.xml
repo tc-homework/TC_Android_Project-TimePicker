@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/main_margin_left"
+    android:layout_marginRight="@dimen/main_margin_right"
+    android:layout_marginTop="24dp"
+    android:layout_marginBottom="20dp"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remain_task_count"
+        android:textSize="14sp"
+        android:textColor="#fff"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp" >
+
+        <TextView
+            android:id="@+id/main_sub_title_remain_task_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textSize="28dp"
+            android:drawableLeft="@mipmap/order"
+            android:drawablePadding="6sp"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="项"
+            android:textSize="28dp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mounth_all_task_count"
+            android:textSize="14sp"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/main_sub_title_all_task_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="14sp"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:text="@string/done_task"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:id="@+id/main_sub_title_done_task_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="14sp"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+</LinearLayout>

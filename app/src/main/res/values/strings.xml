@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TimerPicker</string>
+    <string name="action_settings">Settings</string>
+    <string name="todo_tasks">待完成</string>
+    <string name="done_tasks">已完成</string>
+    <string name="remain_task_count">剩余计划</string>
+    <string name="mounth_all_task_count">本月总计划:  </string>
+    <string name="not_login">未登录</string>
+    <string name="login">登录</string>
+    <string name="have_used">已使用</string>
+    <string name="day">天</string>
+    <string name="count">统计</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="ddl">截止: </string>
+    <string name="place">地点: </string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="edit">编辑</string>
+    <string name="title">标题</string>
+    <string name="content">内容</string>
+    <string name="ddl_time">截止时间</string>
+    <string name="whole_day_event">全天事件</string>
+    <string name="done_task">已完成计划: </string>
+    <string name="info">详情</string>
+</resources>
